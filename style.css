@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+
+body {
+    font-family: "Google Sans", sans-serif;
+    font-size: 18px;
+    color: rgb(45, 45, 45);
+    background: rgb(239, 237, 236);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: rgb(246, 242, 240);
+    padding: 25px 35px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(156, 156, 156, 0.655);
+    width: 300px;
+}
+
+#submit-btn {
+    font-family: inherit;
+    font-size: inherit;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background: linear-gradient(135deg, rgb(255, 126, 95), rgb(254, 180, 123));
+    border: none;
+    color: rgb(235, 240, 245);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#submit-btn:hover {
+    transform: scale(1.08);
+}
+
+label {
+    margin-left: 5px;
+}
+
+input {
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#subscribe-message {
+    margin-top: 10px;
+    font-weight: 600;
+    color: rgb(45, 45, 45);
+}
+
+#payment-message {
+    margin-top: 5px;
+    font-weight: 300;
+    color: rgb(45, 45, 45);;
+}
+
+input[type="checkbox"]:checked + label {
+    font-weight: 600;
+    color: rgb(45, 45, 45);
+}
+
+input[type="radio"]:checked + label {
+    font-weight: 600;
+    color: rgb(45, 45, 45);
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Payment method selector</title>
+</head>
+<body>
+    <div class="container">
+
+        <input type="checkbox" id="the-checkbox">
+        <label for="the-checkbox">Subscribe</label>
+        <br><br>
+        <input type="radio" id="mastercard-btn" name="cards">
+        <label for="mastercard-btn">MasterCard</label>
+        <br>
+        <input type="radio" id="visacard-btn" name="cards">
+        <label for="visacard-btn">Visa</label>
+        <br>
+        <input type="radio" id="paypal-btn" name="cards">
+        <label for="paypal-btn">PayPal</label>
+        <br><br>
+        <button id="submit-btn">Submit</button>
+
+        <p id="subscribe-message"></p>
+        <p id="payment-message"></p>
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
